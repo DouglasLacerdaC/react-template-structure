@@ -30,9 +30,10 @@ export default tseslint.config(
       'react/react-in-jsx-scope': 'off',
       'no-unused-vars': 'off',
       '@typescript-eslint/no-unused-vars': 'error',
+      '@typescript-eslint/no-empty-object-type': 'off',
       'react/prop-types': 'off',
       'prettier/prettier': ['error'],
     },
   },
-  prettierConfig
+  prettierConfig,
 )
